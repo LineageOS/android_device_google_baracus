@@ -17,6 +17,9 @@
 # Bootloader
 TARGET_TEGRA_UBOOT_CONFIG := baracus_defconfig
 
+# Display
+TARGET_ATV_FORCE_1080_SCALING := false
+
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="baracus-user 7.0 NRT1.240624.004 12020658 release-keys" \
