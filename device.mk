@@ -14,4 +14,7 @@
 # limitations under the License.
 #
 
+# Bootloader
+TARGET_TEGRA_UBOOT_CONFIG := baracus_defconfig
+
 $(call inherit-product, device/nvidia/foster/device.mk)
