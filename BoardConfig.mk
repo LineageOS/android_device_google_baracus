@@ -21,3 +21,6 @@ TARGET_OTA_ASSERT_DEVICE := baracus
 
 # Bootloader versions
 TARGET_BOARD_INFO_FILE := device/google/baracus/board-info.txt
+
+# Partitions
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2147483648
