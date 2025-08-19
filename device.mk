@@ -17,4 +17,7 @@
 # Bootloader
 TARGET_TEGRA_UBOOT_CONFIG := baracus_defconfig
 
+# Touch
+PRODUCT_PACKAGES += input-port-associations.xml
+
 $(call inherit-product, device/nvidia/foster/device.mk)
