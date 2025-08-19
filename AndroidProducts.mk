@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_baracusshield.mk \
-    $(LOCAL_DIR)/lineage_baracusshield.mk
+    $(LOCAL_DIR)/full_baracus.mk \
+    $(LOCAL_DIR)/lineage_baracus.mk

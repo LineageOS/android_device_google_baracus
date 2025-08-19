@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ports>
+    <port display="0" input="usb-70090000.xusb-4/input0"/>
+    <port display="99" input="usb-70090000.xusb-4/input1"/>
+</ports>

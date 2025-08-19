@@ -1,0 +1,9 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+prebuilt_etc {
+    name: "input-port-associations.xml",
+    src: "input-port-associations.xml",
+    vendor: true,
+}
