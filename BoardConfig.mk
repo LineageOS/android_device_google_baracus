@@ -20,4 +20,4 @@ include device/nvidia/foster/BoardConfig.mk
 TARGET_OTA_ASSERT_DEVICE := baracus
 
 # Bootloader versions
-TARGET_BOARD_INFO_FILE := device/google/baracusshield/board-info.txt
+TARGET_BOARD_INFO_FILE := device/google/baracus/board-info.txt

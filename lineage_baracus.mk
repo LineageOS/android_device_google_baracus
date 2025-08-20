@@ -17,9 +17,9 @@
 # Inherit some common lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_tv.mk)
 
-# Inherit device configuration for baracusshield.
+# Inherit device configuration for baracus.
 include device/nvidia/foster/lineage.mk
-$(call inherit-product, device/google/baracusshield/full_baracusshield.mk)
+$(call inherit-product, device/google/baracus/full_baracus.mk)
 
-PRODUCT_NAME := lineage_baracusshield
-PRODUCT_DEVICE := baracusshield
+PRODUCT_NAME := lineage_baracus
+PRODUCT_DEVICE := baracus

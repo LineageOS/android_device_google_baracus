@@ -17,11 +17,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, device/google/atv/products/atv_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 # Inherit from baracus device
-$(call inherit-product, device/google/baracusshield/device.mk)
+$(call inherit-product, device/google/baracus/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_baracusshield
-PRODUCT_DEVICE := baracusshield
+PRODUCT_NAME := full_baracus
+PRODUCT_DEVICE := baracus
 PRODUCT_BRAND := Google
 PRODUCT_MANUFACTURER := Google
 PRODUCT_MODEL := Jamboard
