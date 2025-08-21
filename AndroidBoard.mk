@@ -15,3 +15,5 @@
 #
 
 -include device/nvidia/foster/AndroidBoard.mk
+
+INSTALLED_RADIOIMAGE_TARGET += $(PRODUCT_OUT)/install/tegra210-baracus.dtb
