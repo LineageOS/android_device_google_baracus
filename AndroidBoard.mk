@@ -16,4 +16,16 @@
 
 -include device/nvidia/foster/AndroidBoard.mk
 
-INSTALLED_RADIOIMAGE_TARGET += $(PRODUCT_OUT)/install/tegra210-baracus.dtb
+# Path setup
+INSTALLED_DTB_SRC := $(PRODUCT_OUT)/install/tegra210-baracus.dtb
+INSTALLED_DTB_IMG := $(PRODUCT_OUT)/install/dtb.img
+
+# Add a phony target to copy DTB -> dtb.img
+$(INSTALLED_DTB_IMG): $(INSTALLED_DTB_SRC)
+	@echo "Copying DTB to dtb.img"
+	$(hide) cp -f $< $@
+
+# Ensure dtb.img is included in the build
+ALL_DEFAULT_INSTALLED_MODULES += $(INSTALLED_DTB_IMG)
+
+INSTALLED_RADIOIMAGE_TARGET += $(INSTALLED_DTB_IMG)
