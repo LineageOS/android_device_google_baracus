@@ -20,13 +20,6 @@ TARGET_TEGRA_UBOOT_CONFIG := baracus_defconfig
 # Display
 TARGET_ATV_FORCE_1080_SCALING := false
 
-# Fingerprint
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="baracus-user 7.0 NRT1.240624.004 12020658 release-keys" \
-    BuildFingerprint=google/baracus/baracus:7.0/NRT1.240624.004/12020658:user/release-keys \
-    DeviceProduct=baracus \
-    SystemName=baracus
-
 # Touch
 PRODUCT_PACKAGES += input-port-associations.xml
 
