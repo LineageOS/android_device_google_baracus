@@ -1,0 +1,8 @@
+# /dev/hidg* (USB HID gadget devices)
+type hidg_device, dev_type;
+
+# /dev/ttyTHS1 (MStar scaler UART for Jamboard)
+type scaler_uart_device, dev_type;
+
+# /data/misc/scalerd/ (IPC for input source switching)
+type scalerd_data_file, file_type, data_file_type, mlstrustedobject;

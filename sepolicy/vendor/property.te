@@ -1,0 +1,2 @@
+# Jamboard scaler UART daemon properties (vendor.scaler.*)
+vendor_public_prop(vendor_scaler_prop);

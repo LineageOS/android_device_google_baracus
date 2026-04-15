@@ -1,0 +1,17 @@
+// Copyright (C) 2024 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+
+cc_binary {
+    name: "scalerd",
+    vendor: true,
+    srcs: ["scalerd.c"],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+    ],
+}

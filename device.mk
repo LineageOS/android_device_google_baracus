@@ -27,4 +27,19 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Touch
 PRODUCT_PACKAGES += input-port-associations.xml
 
+# Scaler UART daemon
+PRODUCT_PACKAGES += scalerd
+
+# Input source switcher (Settings + QS tile)
+PRODUCT_PACKAGES += JamboardInputSource
+
+# Touch forwarding HID gadget
+PRODUCT_PACKAGES += \
+    touch_forward \
+    touch_enable \
+    hid_mt_report_desc
+
+PRODUCT_COPY_FILES += \
+    device/google/baracus/init.baracus.touch.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.baracus.touch.rc
+
 $(call inherit-product, device/nvidia/foster/device.mk)

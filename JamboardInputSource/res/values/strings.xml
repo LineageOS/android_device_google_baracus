@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2024 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="app_name">Input Source</string>
+    <string name="tile_label">Input</string>
+    <string name="settings_title">Display Input Source</string>
+    <string name="source_android">Android</string>
+    <string name="source_displayport">DisplayPort (USB-C)</string>
+    <string name="source_hdmi1">HDMI 1 (Side)</string>
+    <string name="source_hdmi2">HDMI 2 (Back)</string>
+</resources>

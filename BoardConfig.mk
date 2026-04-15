@@ -23,4 +23,8 @@ TARGET_OTA_ASSERT_DEVICE := baracus
 TARGET_BOARD_INFO_FILE := device/google/baracus/board-info.txt
 
 # Partitions
+# SELinux
+BOARD_VENDOR_SEPOLICY_DIRS += device/google/baracus/sepolicy/vendor
+
+# Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2147483648

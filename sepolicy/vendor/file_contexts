@@ -1,0 +1,14 @@
+# USB HID gadget devices
+/dev/hidg[0-9]			u:object_r:hidg_device:s0
+
+# MStar scaler UART
+/dev/ttyTHS1			u:object_r:scaler_uart_device:s0
+
+# scalerd IPC directory
+/data/misc/scalerd(/.*)?	u:object_r:scalerd_data_file:s0
+
+# scalerd (scaler UART daemon)
+/vendor/bin/scalerd		u:object_r:scalerd_exec:s0
+
+# touch_forward
+/vendor/bin/touch_forward	u:object_r:touch_forward_exec:s0
