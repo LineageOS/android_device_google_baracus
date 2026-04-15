@@ -73,6 +73,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "adea3167_7bef3ca4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36936
+      },
+      "writtenOn": "2026-04-15T21:31:40Z",
+      "side": 1,
+      "message": "The report_desc is a 2313-byte binary HID multitouch descriptor (24 contacts) and report_length is just 0x0154 (340). I could make them a C byte array if you prefer, but they will still be opaque.",
+      "parentUuid": "b9c78f22_ef0f6145",
+      "revId": "12dda4f0b96ed106f368b3a720801defc53cb45e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "67a1e5bb_89e253be",
         "filename": "device.mk",
         "patchSetId": 1
