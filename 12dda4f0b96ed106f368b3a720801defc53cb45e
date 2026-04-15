@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "82af1501_c376281c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-04-15T05:37:38Z",
+      "side": 1,
+      "message": "Something seems fishy about the touch enable script. Previously, touch on baracus in android was flaky because the usb input device created multiple endpoints and all of them were triggering simultaneously, causing really weird reactions in the ui. Just blanket turning everything on seems like it would cause even more chaos.",
+      "revId": "12dda4f0b96ed106f368b3a720801defc53cb45e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "67a1e5bb_89e253be",
         "filename": "device.mk",
         "patchSetId": 1
