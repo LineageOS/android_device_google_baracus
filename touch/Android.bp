@@ -1,0 +1,45 @@
+// Copyright (C) 2024 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+
+prebuilt_etc {
+    name: "hid_mt_report_desc",
+    src: "hid-mt/report_desc",
+    filename: "report_desc",
+    vendor: true,
+    relative_install_path: "touch/hid-mt",
+}
+
+sh_binary {
+    name: "touch_enable",
+    src: "touch_enable.sh",
+    vendor: true,
+}
+
+cc_binary {
+    name: "touch_forward",
+    vendor: true,
+    srcs: ["touch_forward.c"],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+    ],
+}
+
+cc_binary {
+    name: "scaler_probe",
+    vendor: true,
+    srcs: ["scaler_probe.c"],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+    ],
+    shared_libs: [
+        "liblog",
+    ],
+}
