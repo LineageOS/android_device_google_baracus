@@ -170,6 +170,30 @@
       },
       "revId": "12dda4f0b96ed106f368b3a720801defc53cb45e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "59e9786f_318829d3",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-04-15T20:25:53Z",
+      "side": 1,
+      "message": "Ah, while I appreciate the want to keep it separate, this is so specific, we\u0027ll just keep it as a sub-dir in android_device_google_baracus, please push that here.",
+      "parentUuid": "7d851afc_6afe23f4",
+      "range": {
+        "startLine": 34,
+        "startChar": 20,
+        "endLine": 34,
+        "endChar": 39
+      },
+      "revId": "12dda4f0b96ed106f368b3a720801defc53cb45e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
