@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1899bb52_09548570",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36936
+      },
+      "writtenOn": "2026-04-15T06:20:23Z",
+      "side": 1,
+      "message": "Good catch. The RAPT devices were being enabled but not exclusively claimed, which could cause Android\u0027s InputReader to also process them. Added EVIOCGRAB in touch_forward to exclusively grab the RAPT device after opening it, preventing duplicate events. The touch_enable script only enables *RAPT*\n  devices (hazelred sidecar endpoints) — the built-in Raydium digitizer is unaffected. See updated patchset.",
+      "parentUuid": "82af1501_c376281c",
+      "revId": "12dda4f0b96ed106f368b3a720801defc53cb45e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "67a1e5bb_89e253be",
         "filename": "device.mk",
         "patchSetId": 1
@@ -48,6 +66,30 @@
       "writtenOn": "2026-04-15T05:06:10Z",
       "side": 1,
       "message": "You don\u0027t appear to have included this anywhere in the topic?",
+      "range": {
+        "startLine": 34,
+        "startChar": 20,
+        "endLine": 34,
+        "endChar": 39
+      },
+      "revId": "12dda4f0b96ed106f368b3a720801defc53cb45e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d7b1f0aa_996c4dc5",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 36936
+      },
+      "writtenOn": "2026-04-15T06:20:23Z",
+      "side": 1,
+      "message": "Sorry, new to LineageOS gerrit. Do you mean the XDA forum topic or the Gerrit Topic? https://review.lineageos.org/q/topic:%22baracus-touch-forwarding%22",
+      "parentUuid": "67a1e5bb_89e253be",
       "range": {
         "startLine": 34,
         "startChar": 20,
