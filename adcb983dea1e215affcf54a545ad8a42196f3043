@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "aa901385_94c6e7f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 27741
+      },
+      "writtenOn": "2026-04-16T06:02:54Z",
+      "side": 1,
+      "message": "I do understand the hardware and was part of the reverse engineering effort that brought us Lineage on Jamboard in the first place (and own a couple units myself). The issues are not in how the below changes talk to the Jamboard hardware, but in how they are structured and how they talk to Android. I provided some examples above for context.\n\n\u003e how to provide feedback on a respectful tone\n\nI feel I was relatively measured in my response. Others in the community (esp on the Linux side) have had stronger words in response to this and some other contributions copy pasted from LLMs. I am much more neutral, but it is difficult to vouch for changes when they contain hallucinated dates, nonsense comments, and bits that don\u0027t make much sense, and it becomes upsetting specifically when some review response comments are ALSO copy pasted. If you submit something for review having not done review yourself, you are showing disrespect for the maintainers and their time. And of you let the LLM write the mistakes, I fail to see why I should be expected to write any more than I do to Claude when it screws things up (i.e. \"this is awful\").\n\n\u003enot interested in going deep into it\n\nThis is fine, but it is expected when submitting code for inclusion in a larger project that you look at some other sources and read the relevant documentation.\n\n\u003elost interest\n\nI apologize if my tone has discouraged you from improving the changes and contributing, and I hope you reconsider and instead try and work to rearchitect some of this so we have something maintainable. My comment above was meant to be constructive, and my comments below were low effort.",
+      "parentUuid": "e38a1bf1_4c718351",
+      "revId": "adcb983dea1e215affcf54a545ad8a42196f3043",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c7d97930_cf8e7e73",
         "filename": "scalerd/scalerd.c",
         "patchSetId": 3
