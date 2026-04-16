@@ -1,0 +1,174 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd821e7a_02d61cd1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 27741
+      },
+      "writtenOn": "2026-04-16T04:19:17Z",
+      "side": 1,
+      "message": "left some comments. nowhere near all of the problems but it\u0027s a start.\n\nyour changes have a lot of issues, which mainly seem to stem from you not understanding the code you are copy pasting from claude, which appears to be all of it. it does not follow any android, linux, or just general reasonable convention.\n\nLLMs are fantastic tools to aid in development, understanding, and project management. they are not that smart, have only aggregate context apart from what you give them, and require close direction. they are not to be used to vibe code stuff that \"works\" without the supervising engineer understanding and guiding the approach or you end up with what we have here.\n\nit is extremely bad practice to submit code you do not understand and copy pasted from a model, and beyond bad practice (not to mention disrespectful) to use it to copy paste review comments as well (ex. the comment about EVIOCGRAB). this code is unproofread, unpolished, full of hallucinated dates and nonsenical extra comments, and conceptually wrong in much of the approach. i would encourage you to read other code and documentation before reattempting, and please at the very least proofread before following up.\n\nIf you would like to learn and work with us to create the proper solutions, feel free to join us on Discord (reply and someone will get you an invite). Your work here shows initiative but there is much to be done if we are to get something mergeable.\n\nEducational references:\nHALs: https://source.android.com/docs/core/architecture/hal\nJoycond (an event forwarder HAL for nintendo joycons): https://github.com/lineageos/android_hardware_nintendo_joycond\njoycon-serdev (a kernel driver handling packet-based serial comms for nintendo joycons): https://github.com/LineageOS/android_kernel_nvidia_kernel-nx/blob/lineage-23.0/drivers/input/joystick/joycon-serdev.c\nExample of Android Light HAL: https://github.com/SoMainline/android-lights-hal",
+      "revId": "adcb983dea1e215affcf54a545ad8a42196f3043",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7d97930_cf8e7e73",
+        "filename": "scalerd/scalerd.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 27741
+      },
+      "writtenOn": "2026-04-16T04:19:17Z",
+      "side": 1,
+      "message": "this is in no way the correct solution. this needs to be done in kernel, you should write a driver for this mstar controller that handles the communication and then you can have HALs poll exposed sysfs for state.",
+      "revId": "adcb983dea1e215affcf54a545ad8a42196f3043",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "abd8d126_cf4ae70c",
+        "filename": "scalerd/scalerd.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 27741
+      },
+      "writtenOn": "2026-04-16T04:19:17Z",
+      "side": 1,
+      "message": "come on man proofread at least",
+      "revId": "adcb983dea1e215affcf54a545ad8a42196f3043",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1b1e242f_d7171ffe",
+        "filename": "scalerd/scalerd.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 473,
+      "author": {
+        "id": 27741
+      },
+      "writtenOn": "2026-04-16T04:19:17Z",
+      "side": 1,
+      "message": "this is awful",
+      "revId": "adcb983dea1e215affcf54a545ad8a42196f3043",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4dc97120_87af41ea",
+        "filename": "touch/touch_enable.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 27741
+      },
+      "writtenOn": "2026-04-16T04:19:17Z",
+      "side": 1,
+      "message": "what? if stuff is not enabled by default fix it at the source",
+      "revId": "adcb983dea1e215affcf54a545ad8a42196f3043",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0f36df26_9d671a1d",
+        "filename": "touch/touch_forward.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 27741
+      },
+      "writtenOn": "2026-04-16T04:19:17Z",
+      "side": 1,
+      "message": "time machine",
+      "revId": "adcb983dea1e215affcf54a545ad8a42196f3043",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8919c836_551a4648",
+        "filename": "touch/touch_forward.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 27741
+      },
+      "writtenOn": "2026-04-16T04:19:17Z",
+      "side": 1,
+      "message": "superfluous and somewhat nonsensical, cut the comment here",
+      "revId": "adcb983dea1e215affcf54a545ad8a42196f3043",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "62e84079_25a66c1a",
+        "filename": "touch/touch_forward.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 27741
+      },
+      "writtenOn": "2026-04-16T04:19:17Z",
+      "side": 1,
+      "message": "same issue as the script. this is dumb and should not be needed.",
+      "revId": "adcb983dea1e215affcf54a545ad8a42196f3043",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84eb2d79_c817da9c",
+        "filename": "touch/touch_forward.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 27741
+      },
+      "writtenOn": "2026-04-16T04:19:17Z",
+      "side": 1,
+      "message": "why not just by-id\nwhy do a giant lookup",
+      "revId": "adcb983dea1e215affcf54a545ad8a42196f3043",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58505a1f_65ba3546",
+        "filename": "touch/touch_forward.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 284,
+      "author": {
+        "id": 27741
+      },
+      "writtenOn": "2026-04-16T04:19:17Z",
+      "side": 1,
+      "message": "why are you polling the input device fd? just hook uevent or something like joycond does.",
+      "revId": "adcb983dea1e215affcf54a545ad8a42196f3043",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
