@@ -248,6 +248,30 @@
       },
       "revId": "12dda4f0b96ed106f368b3a720801defc53cb45e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "874edcde_1ba9e4f3",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 36936
+      },
+      "writtenOn": "2026-04-16T05:28:19Z",
+      "side": 1,
+      "message": "Added to the tree.",
+      "parentUuid": "59e9786f_318829d3",
+      "range": {
+        "startLine": 34,
+        "startChar": 20,
+        "endLine": 34,
+        "endChar": 39
+      },
+      "revId": "12dda4f0b96ed106f368b3a720801defc53cb45e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

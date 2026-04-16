@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e38a1bf1_4c718351",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36936
+      },
+      "writtenOn": "2026-04-16T05:28:19Z",
+      "side": 1,
+      "message": "I\u0027m not sure you understand the hardware on the Jamboard based on some of your comments, or how to provide feedback on a respectful tone. I\u0027m not familiar with the Android codebase, and no, I\u0027m not interested in going deep into it. I\u0027m happy to retract all the patches if incorrect years on the comments are so offensive to you. There are reasons why some of the approaches you proposed didn\u0027t work, but you sure made me loose any interest in following up on this...",
+      "parentUuid": "bd821e7a_02d61cd1",
+      "revId": "adcb983dea1e215affcf54a545ad8a42196f3043",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c7d97930_cf8e7e73",
         "filename": "scalerd/scalerd.c",
         "patchSetId": 3
